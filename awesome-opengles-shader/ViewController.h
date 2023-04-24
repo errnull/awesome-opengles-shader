@@ -5,9 +5,9 @@
 //  Created by errnull on 2023/4/24.
 //
 
-#import <GLKit/GLKit.h>
+#import <UIKit/UIKit.h>
 
-@interface ViewController : GLKViewController
+@interface ViewController : UIViewController
 
 
 @end
