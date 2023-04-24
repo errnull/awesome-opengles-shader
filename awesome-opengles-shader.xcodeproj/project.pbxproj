@@ -13,6 +13,7 @@
 		713A2C2729F667E200BF1C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713A2C2629F667E200BF1C90 /* Assets.xcassets */; };
 		713A2C2A29F667E200BF1C90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713A2C2829F667E200BF1C90 /* LaunchScreen.storyboard */; };
 		713A2C2D29F667E200BF1C90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 713A2C2C29F667E200BF1C90 /* main.m */; };
+		713A2C3429F67B7100BF1C90 /* stretch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 713A2C3329F67B7100BF1C90 /* stretch.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		713A2C2929F667E200BF1C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		713A2C2B29F667E200BF1C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		713A2C2C29F667E200BF1C90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		713A2C3329F67B7100BF1C90 /* stretch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stretch.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				713A2C2029F667E100BF1C90 /* ViewController.h */,
 				713A2C2129F667E100BF1C90 /* ViewController.m */,
 				713A2C2329F667E100BF1C90 /* Main.storyboard */,
+				713A2C3329F67B7100BF1C90 /* stretch.jpg */,
 				713A2C2629F667E200BF1C90 /* Assets.xcassets */,
 				713A2C2829F667E200BF1C90 /* LaunchScreen.storyboard */,
 				713A2C2B29F667E200BF1C90 /* Info.plist */,
@@ -131,6 +134,7 @@
 				713A2C2A29F667E200BF1C90 /* LaunchScreen.storyboard in Resources */,
 				713A2C2729F667E200BF1C90 /* Assets.xcassets in Resources */,
 				713A2C2529F667E100BF1C90 /* Main.storyboard in Resources */,
+				713A2C3429F67B7100BF1C90 /* stretch.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
