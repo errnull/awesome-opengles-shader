@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		713A2C1C29F667E100BF1C90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 713A2C1B29F667E100BF1C90 /* AppDelegate.m */; };
-		713A2C1F29F667E100BF1C90 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 713A2C1E29F667E100BF1C90 /* SceneDelegate.m */; };
 		713A2C2229F667E100BF1C90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713A2C2129F667E100BF1C90 /* ViewController.m */; };
 		713A2C2529F667E100BF1C90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713A2C2329F667E100BF1C90 /* Main.storyboard */; };
 		713A2C2729F667E200BF1C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713A2C2629F667E200BF1C90 /* Assets.xcassets */; };
@@ -20,8 +19,6 @@
 		713A2C1729F667E100BF1C90 /* awesome-opengles-shader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "awesome-opengles-shader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		713A2C1A29F667E100BF1C90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		713A2C1B29F667E100BF1C90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		713A2C1D29F667E100BF1C90 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		713A2C1E29F667E100BF1C90 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		713A2C2029F667E100BF1C90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		713A2C2129F667E100BF1C90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		713A2C2429F667E100BF1C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,8 +60,6 @@
 			children = (
 				713A2C1A29F667E100BF1C90 /* AppDelegate.h */,
 				713A2C1B29F667E100BF1C90 /* AppDelegate.m */,
-				713A2C1D29F667E100BF1C90 /* SceneDelegate.h */,
-				713A2C1E29F667E100BF1C90 /* SceneDelegate.m */,
 				713A2C2029F667E100BF1C90 /* ViewController.h */,
 				713A2C2129F667E100BF1C90 /* ViewController.m */,
 				713A2C2329F667E100BF1C90 /* Main.storyboard */,
@@ -149,7 +144,6 @@
 				713A2C2229F667E100BF1C90 /* ViewController.m in Sources */,
 				713A2C1C29F667E100BF1C90 /* AppDelegate.m in Sources */,
 				713A2C2D29F667E200BF1C90 /* main.m in Sources */,
-				713A2C1F29F667E100BF1C90 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
