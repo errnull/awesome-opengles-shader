@@ -15,6 +15,10 @@ typedef struct {
 } SenceVertex;
 
 @interface ViewController ()
+{
+    int _splitFilterIndex;
+}
+
 @property (nonatomic, assign) SenceVertex *vertices;
 @property (nonatomic, strong) EAGLContext *context;
 
@@ -27,14 +31,26 @@ typedef struct {
 @property (nonatomic, assign) GLuint vertexBuffer;
 
 @property (nonatomic, assign) GLuint textureID;
+
 @end
 
 @implementation ViewController
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [super touchesBegan:touches withEvent:event];
-    
-    [self setupSplitShaderProgram];
+    _splitFilterIndex = _splitFilterIndex % 9;
+    if (_splitFilterIndex == 8) {
+        _splitFilterIndex = -1;
+    }
+    _splitFilterIndex++;
+    if(_splitFilterIndex == 0) {
+        [self setupNormalShaderProgram];
+    } else {
+        if (_splitFilterIndex == 4) {
+            _splitFilterIndex = 8;
+        }
+        [self setupSplitShaderProgramWithIndex:_splitFilterIndex + 1];
+    }
 }
 
 //释放
@@ -217,8 +233,8 @@ typedef struct {
     [self setupShaderProgramWithName:@"Normal"];
 }
 
-- (void)setupSplitShaderProgram {
-    [self setupShaderProgramWithName:@"Split2"];
+- (void)setupSplitShaderProgramWithIndex:(int)index {
+    [self setupShaderProgramWithName:[NSString stringWithFormat:@"Split%d", index]];
 }
 
 - (void)setupShaderProgramWithName:(NSString *)name {
