@@ -31,6 +31,12 @@ typedef struct {
 
 @implementation ViewController
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [super touchesBegan:touches withEvent:event];
+    
+    [self setupSplitShaderProgram];
+}
+
 //释放
 - (void)dealloc {
     if ([EAGLContext currentContext] == self.context) {
@@ -209,6 +215,10 @@ typedef struct {
 
 - (void)setupNormalShaderProgram {
     [self setupShaderProgramWithName:@"Normal"];
+}
+
+- (void)setupSplitShaderProgram {
+    [self setupShaderProgramWithName:@"Split2"];
 }
 
 - (void)setupShaderProgramWithName:(NSString *)name {
